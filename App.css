@@ -1,0 +1,80 @@
+.app {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+}
+
+.list {
+    overflow: auto;
+    background-color: aliceblue;
+    height: 100vh;
+    flex: 1;
+    border-radius: 25px;
+}
+
+h2 {
+    padding: 5px 15px;
+}
+
+.list-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.list-item img {
+    width: 35%;
+    border-radius: 10px;
+}
+
+.list-container {
+    padding-left: 15px;
+}
+
+/*ortadaki kısım*/
+
+.info-box{
+    background-color: aliceblue;
+    flex: 2;
+    min-height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+.info-box img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.details {
+    max-width: 880px;
+    min-height: 500px;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 100%; 
+  }
+  
+  .details-content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    padding: 15px;
+  }
+  
+  .details-content img {
+    flex: 1;
+    border-radius: 15px;
+  }
+  
+  .details-table {
+    flex: 2;
+    font-size: 14px;
+    padding: 15px 0;
+  }
